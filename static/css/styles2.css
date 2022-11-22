@@ -1,0 +1,169 @@
+p {
+  white-space: pre;
+}
+
+body{
+	color: #40fd14;
+	background-color: #000;
+	font-family:  Consolas;
+
+}
+
+h1{
+	color: #40fd14;
+	background-color: #000;	
+	}
+
+h2{
+	color: #DF4BFF;
+	background-color: #000;
+	}
+
+p{
+	color: #DF4BFF;
+}
+
+
+img{width:166px;}
+
+
+#stand-btn {
+	background-color: #50C878;
+	
+	height: 60px;
+	width: 180px;
+	
+	
+	border-width: 2px;
+	border-radius: 4px;
+	border-style: solid;
+    border-color: #fff;
+	
+	font-size: 28px;
+	color: #FFF;
+}
+
+#stand-btn1 {
+	
+    -webkit-writing-mode: horizontal-tb !important;
+    -webkit-appearance: button;
+
+	
+	
+	background-color: #50C878;
+	width: 100px;
+	border-radius: 4px;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    text-rendering: auto;
+    color: initial;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 18px system-ui;
+}
+
+
+#push-btn1{	
+	position: relative;
+	top: -5px;
+	left: 2px;
+
+	opacity: 0.6;
+	background-color: #AEB6C7;
+	
+	height: 40px;
+	width: 160px;
+	
+	border-width: 2px;
+	border-radius: 4px;
+	border-style: solid;
+    border-color: #fff;
+	
+	font-size: 18px;
+	color: #FFF;
+}
+
+#push-btn2{	
+
+	position: relative;
+	top: -5px;
+	left: 8px;
+
+	opacity: 0.6;
+	background-color: #AEB6C7;
+	
+	height: 40px;
+	width: 160px;
+	
+	border-width: 2px;
+	border-radius: 4px;
+	border-style: solid;
+    border-color: #fff;
+	
+	font-size: 18px;
+	color: #FFF;
+}
+
+#push-btn3{	
+
+	position: relative;
+	top: -5px;
+	left: 16px;
+
+	opacity: 0.6;
+	background-color: #AEB6C7;
+	height: 40px;
+	width: 160px;
+	
+	border-width: 2px;
+	border-radius: 4px;
+	border-style: solid;
+    border-color: #fff;
+	
+	font-size: 18px;
+	color: #FFF;
+}
+#push-btn4{	
+
+	position: relative;
+	top: -5px;
+	left: 20px;
+	
+	opacity: 0.6;
+	background-color: #AEB6C7;
+	
+	height: 40px;
+	width: 160px;
+	
+	border-width: 2px;
+	border-radius: 4px;
+	border-style: solid;
+    border-color: #fff;
+	
+	font-size: 18px;
+	color: #FFF;
+}
+#push-btn5{	
+
+	position: relative;
+	top: -5px;
+	left: 28px;
+	
+	opacity: 0.6;
+	
+	background-color: #AEB6C7;
+	
+	height: 40px;
+	width: 160px;
+	
+	border-width: 2px;
+	border-radius: 4px;
+	border-style: solid;
+    border-color: #fff;
+	
+	font-size: 18px;
+	color: #FFF;
+}
