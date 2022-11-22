@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>CJ V-Poker Game</title>
+
+  <link rel="stylesheet" href= "static/css/styles2.css" />
+  <!-- отложенная загрузка библиотеки jQuery -->
+  <script defer src="js/jquery-3.6.1.js"></script>
+  <script defer src="js/vpoker-script.js"></script>
+
+  </head>
+
+  <body>
+    <h1>-= CJ V-Poker Game =-</h1>
+
+  <div id='wins_bar' >  
+
+    <li>JOKERS BONUS.......x1 FULL HOUSE...........x8</li>   
+    <li>JACKS OR ▲.........x1 FLUSH................x6</li>
+    <li>TWO PAIR...........x2 CARRE (FOUR KIND)...x25</li>
+    <li>SET (THREE KIND)...x3 STRAIGHT FLUSH......x50</li>
+    <li>STRAIGHT...........x4 ROYAL FLUSH........x800</li>   
+
+ </div>
+
+  <hr>
+
+
+
+  <div id='hit-buttons-block' >  
+    BET Coins
+
+
+
+    <button id="bet-btn1"> [ 1 ] </button> 
+    <button id="bet-btn2"> [ 2 ] </button> 
+    <button id="bet-btn3"> [ 5 ] </button>       
+    <button id="bet-btn4"> [ 10 ] </button>    
+    <button id="bet-btn5"> [ 25 ] </button>    
+    <button id="bet-btn6"> [ 50 ] </button>
+    <button id="bet-btn7"> [ 100 ] </button>
+    <button id="bet-btn8"> [ 200 ] </button>   
+    <button id="bet-btn9"> [ 500 ] </button>   
+    <button id="bet-btn10"> [ 1000 ] </button>   
+
+
+    <button id="bet-btn01"> [ - ] </button> 
+    <button id="bet-btn03"> [ + ] </button> 
+    <button id="bet-btn02">  DROPP  </button>
+   
+  </div>
+
+
+    <div id='user-bet' >YOUR BET: 0   </div>
+
+     
+
+  <hr>
+
+
+  <div id='cards-block' >  
+      <img src="static/images/card_deck/ZER_0.jpg" alt="Картинка 1" />
+      <img src="static/images/card_deck/ZER_0.jpg" alt="Картинка 2" />
+      <img src="static/images/card_deck/ZER_0.jpg" alt="Картинка 3" />
+      <img src="static/images/card_deck/ZER_0.jpg" alt="Картинка 4" />
+      <img src="static/images/card_deck/ZER_0.jpg" alt="Картинка 5" />
+  </div>
+
+  <br>
+
+  <div id='push-buttons-block' >  
+    <button id="push-btn1"> PUSH </button>
+    <button id="push-btn2"> PUSH </button>
+    <button id="push-btn3"> PUSH </button>
+    <button id="push-btn4"> PUSH </button>
+    <button id="push-btn5"> PUSH </button>
+  </div>
+
+  <hr/>
+
+  <div id='main-button' > 
+    <button id="stand-btn"> DEAL </button>
+  </div>
+
+
+  <br>
+
+  <div id='res-bar' > Result->
+
+  </div>
+
+  <br>
+
+  <div id='hit-buttons-block1' >  
+
+    <button id="hit-btn"> [ - HIT - ] DRAW </button>
+    <button id="skip-btn"> [ SKIP ] </button>
+
+  </div>
+
+  </body>
+</html>
